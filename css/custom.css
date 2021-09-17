@@ -1,0 +1,35 @@
+/* custom styles can go here */
+body {
+  background: white;
+}
+
+body.no-walrus {
+  background-image: none;
+}
+
+.reveal pre code {
+  background: #f9f9f9;
+  color: initial;
+}
+
+.scrollable-slide {
+  height: 800px;
+  overflow-y: auto !important;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+background-color: #333;
+}
+::-webkit-scrollbar-corner {
+background-color: #333;
+}
+
+body .reveal section img {
+  border: none;
+  box-shadow: none;
+}
